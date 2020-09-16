@@ -164,6 +164,22 @@
 						</graphicData>
 					</value>
 				</li>
+				<!-- stick the vanilla tool cabinet texture onto the tier 1 ML cabinet 9-8-2020 -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="ToolCabinetA"]/graphicData/texPath</xpath>
+					<value>
+						<texPath>Things/Building/Misc/ToolCabinet</texPath>
+						<color>(96,114,95)</color>
+					</value>
+				</li>
+				<!-- lets do the tier 2 ML cabinet, too 9-9-2020 -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="ToolCabinetB"]/graphicData/texPath</xpath>
+					<value>
+						<texPath>Things/Building/Misc/ToolCabinet</texPath>
+						<color>(150,40,40)</color>
+					</value>
+				</li>
 				<!--Kitchen Cupboard Costs-->
 				<li Class="PatchOperationConditional">
 					<xpath>Defs/ThingDef[defName="KitchenCupboard"]/stuffCategories</xpath>
